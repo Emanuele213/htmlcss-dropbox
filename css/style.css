@@ -13,6 +13,10 @@ body{
     padding-top: 100px;
 }
 
+.mega-space{
+    margin: 120px 0;
+}
+
 .space {
     margin: 25px 0 ;
 }
@@ -175,4 +179,27 @@ h1 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
+}
+
+.img-display-main {
+    display: flex;
+    width: 100%;
+    flex-basis: 40%;
+}
+
+.size-small-part {
+    padding: 30px;
+    flex-basis: 60%;
+}
+
+.bnt-white {
+    background-color: white;
+    padding: 12px 20px;
+    color: black;
+    border: 1px solid black;
+}
+
+.bnt-white:hover {
+    cursor: pointer;
+    text-decoration: none;
 }
