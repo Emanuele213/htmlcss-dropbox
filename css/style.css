@@ -9,13 +9,16 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
 body{
     padding-top: 100px;
+}
+
+.space {
+    margin: 25px 0 ;
+}
+
+.space-center {
+    width: 100%;
 }
 
     /* HEADER */
@@ -25,6 +28,7 @@ header {
     width: 100%;
     top: 0;
     right: 0;
+    z-index: 1;
 }
 
 .flex-container{
@@ -39,11 +43,21 @@ ul {
     list-style-type: none;
 }
 
+.form-link{
+    text-decoration: none;
+    color: black;
+}
+
 .bnt-blue{
     background-color: #0061ff;
     padding: 12px 20px;
     color: white;
     border: #0061ff;
+}
+
+.bnt-blue:hover {
+    cursor: pointer;
+    text-decoration: none;
 }
 
 li {
@@ -68,12 +82,8 @@ h1 {
     margin-bottom: 40px;
 }
 
-.dimesioni {
+.arrow-size {
     font-size: 40px;
-}
-
-.space {
-    margin: 25px 0 ;
 }
 
 .img-flex {
@@ -82,17 +92,57 @@ h1 {
 
 .small-part {
     padding: 10px;
-    flex-basis: 40%;
+    flex-basis: 40%; 
+
 }
 
 .img-size{
     width: 840px;
-    flex-basis: 60%;
+    flex-basis: 60%; 
     position: absolute;
+    z-index: 0;
 }
-
+    
+    /* main-center */
+    
 .main-container-center {
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 100px;
+
+}
+
+.container-table-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divTable{
+    display:  table;
+    width:  30%;
+    border: 0.1px solid black;
+    padding-bottom: 20px;
+}
+
+.color-blue{
+    color: #0061ff;
+}
+
+.divHead{
+    display:  table; 
+    width: 100%;
+    border-bottom: 0.1px solid black;
+}
+
+.headRow{
+    text-align: center;
+    padding: 5px;
+}
+
+.divRow{
+    width:auto;
+}
+
+.divCell{
+    padding: 20px;
 }

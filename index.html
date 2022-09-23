@@ -12,25 +12,26 @@
 </head>
 <body>
     <header>
-        <!-- barra di sinistra -->
         <nav class="flex-container">
+            <!-- barra di sinistra -->
             <ul>
                 <li><img src="img/logo-small.png" alt="logo piccolo in alto a sinistra"></li>
-                <li><a href="#!">Perchè DropBox</a></li>
-                <li><a href="#!">Funzioni</a></li>
-                <li><a href="#!">Piani e Prezzi</a></li>
+                <li><a  class="form-link" href="#!">Perchè DropBox</a></li>
+                <li><a class="form-link" href="#!">Funzioni</a></li>
+                <li><a class="form-link" href="#!">Piani e Prezzi</a></li>
             </ul>
             <!-- barra di destra-->
             <ul>
-                <li><a href="#!">Supporto</a></li>
-                <li><a href="#!">Contatta l'ufficio vendite</a></li> 
-                <li><a href="#!">Accedi</a></li>
+                <li><a class="form-link" href="#!">Supporto</a></li>
+                <li><a class="form-link" href="#!">Contatta l'ufficio vendite</a></li> 
+                <li><a class="form-link" href="#!">Accedi</a></li>
                 <li><button class="bnt-blue">Inizia</button></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <!-- primo contenitore sotto header -->
         <div class="color-back">
             <div class="main-container-top">
                 <div>
@@ -43,10 +44,10 @@
                         <p class="space">Finalmente tutti i tuoi strumenti, contenuti e collaborativi sono accessibili dallo stesso posto. Dropbox Bunisses è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizare il flusso di lavoro esistente.</p>
                         <button class="bnt-blue space">Inizia la tua prova gratuita</button>
                         <p class="space">Annulla in qualsiasi momento</p>
-                        <i class="fa-solid fa-arrow-down space dimesioni"></i>
+                        <i class="fa-solid fa-arrow-down space arrow-size"></i>
                     </div>
                     <!-- immagine -->
-                    <div >
+                    <div>
                         <img src="img/jumbo.png" alt="Prima immagine con dei riferimenti" class="img-size">
                     </div>
                 </div>
@@ -56,8 +57,109 @@
         <div class="main-container-center">
             <h2>Trova il piano business che fa per te</h2>
             <div class="space">
-                <input type="radio" name="" id="">Fatturato mensile
-                <input type="radio" name="" id="">Fatturato annuale
+                <input type="radio" name="" id=""> Fatturato mensile
+                <input type="radio" name="" id=""> Fatturato annuale
+            </div>
+            <div class="container-table-flex">
+                <!-- prima tabella  -->
+                <div class="divTable">
+                    <div class="divHead">
+                        <div class="headRow">
+                            <div class="headRow"><i class="fa-solid fa-user"></i> Singolo</div>
+                        </div>    
+                    </div>
+                    <div class="divRow">
+                        <div class="divCell ">
+                            <strong>Professional</strong><br><br>
+                            <strong>€ 12.00</strong><br><br>
+                            /mese
+                        </div>
+                        <div class="divCell ">
+                            <i class="fa-solid fa-user"></i> 1 utente<br><br>
+                            <i class="fa-solid fa-folder-open"></i> 5 TB di spazio di archiviazione sicuro <br><br>
+                            <i class="fa-solid fa-share"></i> Funzioni di produttività premium e condivisione file semplice e sicura <br><br>
+                        </div>
+                        <div class="divCell space-center">
+                            <button class="bnt-blue space-center">Prova gratis per 30 giorni</button>
+                        </div>
+                        <div class="divCell ">
+                            oppure <a href="#!">acquista ora</a>
+                        </div>
+                        <div class="divCell">
+                            <strong>Punti salienti del piano</strong><br><br>
+                            <ul>
+                                <li><i class="fa-solid fa-check color-blue"></i> Invia file fino a 100GB con Dropbox Transfert</li><br><br>
+                                <li><i class="fa-solid fa-check color-blue"></i> Cartelle offline su dispositivi mobili</li><br>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- seconda tabella -->
+                <div class="divTable">
+                    <div class="divHead">
+                        <div class="headRow">
+                            <div class="headRow">Singolo</div>
+                        </div>    
+                    </div>
+                    <div class="divRow">
+                        <div class="divCell ">
+                            <strong>Professional</strong><br><br>
+                            <strong>€ 12.00</strong><br><br>
+                            /mese
+                        </div>
+                        <div class="divCell ">
+                            1 utente <br><br>
+                            5 TB di spazio di archiviazione sicuro <br><br>
+                            Funzioni di produttività premium e condivisione file semplice e sicura <br><br>
+                        </div>
+                        <div class="divCell space-center">
+                            <button class="bnt-blue space-center">Prova gratis per 30 giorni</button>
+                        </div>
+                        <div class="divCell ">
+                            oppure <a href="#!">acquista ora</a>
+                        </div>
+                        <div class="divCell ">
+                            <strong>Punti salienti del piano</strong><br><br>
+                            <ul>
+                                <li>Invia file fino a 100GB con Dropbox Transfert</li><br><br>
+                                <li>Cartelle offline su dispositivi mobili</li><br>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- terza tabella -->
+                <div class="divTable">
+                    <div class="divHead">
+                        <div class="headRow">
+                            <div class="headRow">Singolo</div>
+                        </div>    
+                    </div>
+                    <div class="divRow">
+                        <div class="divCell ">
+                            <strong>Professional</strong><br><br>
+                            <strong>€ 12.00</strong><br><br>
+                            /mese
+                        </div>
+                        <div class="divCell ">
+                            1 utente <br><br>
+                            5 TB di spazio di archiviazione sicuro <br><br>
+                            Funzioni di produttività premium e condivisione file semplice e sicura <br><br>
+                        </div>
+                        <div class="divCell space-center">
+                            <button class="bnt-blue space-center">Prova gratis per 30 giorni</button>
+                        </div>
+                        <div class="divCell ">
+                            oppure <a href="#!">acquista ora</a>
+                        </div>
+                        <div class="divCell ">
+                            <strong>Punti salienti del piano</strong><br><br>
+                            <ul>
+                                <li>Invia file fino a 100GB con Dropbox Transfert</li><br><br>
+                                <li>Cartelle offline su dispositivi mobili</li><br>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
