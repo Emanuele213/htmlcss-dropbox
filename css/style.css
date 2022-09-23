@@ -6,7 +6,7 @@
 }
 
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -15,6 +15,11 @@ body{
 
 .space {
     margin: 25px 0 ;
+}
+
+.mini-space{
+    margin: 15px 0;
+
 }
 
 .space-center {
@@ -41,6 +46,7 @@ header {
 
 ul {
     list-style-type: none;
+    position: static;
 }
 
 .form-link{
@@ -60,7 +66,7 @@ ul {
     text-decoration: none;
 }
 
-li {
+.inline-li {
     display: inline;
     margin: 0 10px;
 }
@@ -128,6 +134,10 @@ h1 {
     color: #0061ff;
 }
 
+.size-spcecial{
+    font-size: 25px;
+}
+
 .divHead{
     display:  table; 
     width: 100%;
@@ -145,4 +155,24 @@ h1 {
 
 .divCell{
     padding: 20px;
+}
+
+.row-hr{
+    width: 20%;
+    padding-left: 20px;
+}
+
+.div-table-row {
+    width:  100%;
+    border: 0.1px solid black;
+}
+
+.head-row{
+    border-bottom: 0.1px solid black;
+}
+
+.flex-container-table{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
 }
