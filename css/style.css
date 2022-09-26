@@ -23,7 +23,10 @@ body{
 
 .mini-space{
     margin: 15px 0;
+}
 
+.space-left{
+    padding-right: 5px;
 }
 
 .space-center {
@@ -99,6 +102,7 @@ h1 {
 
 .img-flex {
     display: flex;
+    width: 100%;
 }
 
 .base-flex{
@@ -140,6 +144,10 @@ h1 {
     font-size: 25px;
 }
 
+.divTable li {
+    display: flex;
+}
+
 .divHead{
     display:  table; 
     width: 100%;
@@ -176,7 +184,11 @@ h1 {
 .flex-container-table{
     display: flex;
     align-items: flex-start;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.flex-container-table ul{
+    width: 60%;
 }
 
 .img-display-main {
@@ -214,10 +226,41 @@ h1 {
 }
 
 .top-container{
-    padding: 20px;
-    width: 30%;
+    padding: 25px 10px;
+    width: 33.3%;
 }
 
 .down-container {
-    padding-top: 10px;
+    padding-top: 10px 0;
 }
+
+.h2-special{
+    font-size: 40px;
+    width: 60%;
+    margin-bottom: 40px;
+    margin-top: 200px;
+}
+
+.img-flex-ten{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15%;
+    padding: 40px 30px;
+    justify-content: space-evenly;
+}
+
+.img-flex-forty{  
+    display: flex;
+    flex-basis: 40%;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.inside-div{
+    padding: 35px 0;
+}
+
+.img-width{
+    width: 100%;
+}
+
