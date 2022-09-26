@@ -318,10 +318,14 @@ h1 {
 .color-back-second .main-container-center{
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.flex-down-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .special-down{
     font-size: 40px;
     width: 60%;
@@ -333,4 +337,10 @@ h1 {
     padding: 12px 20px;
     color: black;
     border: 1px solid white;
+}
+
+.display-flex-down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
